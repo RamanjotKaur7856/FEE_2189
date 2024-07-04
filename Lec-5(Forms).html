@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="">
+        <center>
+        <h1>Input field</h1>
+        <input type="text">
+        <br>
+        <input type="password">
+        <br>
+        <input type="number">
+        <br>
+        <input type="color">
+        <br>
+        <input type="date">
+        <br>
+        <input type="time">
+        <br>
+        <input type="email">
+        <hr>
+            <!-- Id and label for should be same -->
+        <h1>Labels and placeholder</h1>
+        <label for="Username">
+            Username:
+        </label>
+        <input type="text" id="Username" placeholder="Username">
+        <br>
+        <label for="Password">
+            Password:
+        </label>
+        <input type="password" id="Password" placeholder="Password">
+        <br>
+        <button type="button">Submit</button>
+        <hr>
+        <h1>Checkbox</h1>
+        <label for="age">Age</label>
+        <input type="checkbox" id="age" checked>
+        <hr>
+        <h1>Radio buttons</h1>
+        <input type="radio" name="gender" id="male">
+        <label for="gender">Female</label>
+        <input type="radio" id="female">
+        <label for="gender">Male</label>
+        <hr>
+        <h1>Range</h1>
+        <label for="volume">Volume</label>
+        <input type="range" id="volume" min="0" max="100" step="30" value="80">
+        <hr>
+        <h1>Textarea</h1>
+        <label for="">Address:</label>
+        <Textarea cols="5" rows="5"></Textarea>
+        <hr>
+        <h1>Dropdown</h1>
+        <label for="select">Select</label>
+        <select name="select" id="select">
+            <option value="Option1">Option1</option>
+            <option value="Option2">Option2</option>
+            <option value="Option3">Option3</option>
+            <option value="Option4">Option4</option>
+        </select>
+        </center>
+    </form>
+</body>
+</html>
