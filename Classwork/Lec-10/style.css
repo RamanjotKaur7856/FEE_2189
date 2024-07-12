@@ -1,0 +1,21 @@
+/* 1.Decendent Selector */
+ul li a{
+    color:red;
+    font-size: 20px;
+}
+
+/* 2.Child Selector */
+ol>li{
+    background-color: yellow;
+}
+
+/* 3.Adjacent Selector */
+h3+p{
+    border-top: 2px solid brown;
+}
+
+/* 4.Sibling Selector */
+div~p{
+    background-color:pink;
+}
+
