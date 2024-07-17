@@ -1,0 +1,21 @@
+/*Margin is space between body and content border
+Padding is space between content and border*/
+
+/*If the margin property has three values:
+margin: 25px 50px 75px;
+top margin is 25px
+right and left margins are 50px
+bottom margin is 75px
+If margin has four values then anticlockwise:top ,right,bottom,left
+If margin has two value then :(top,bottom) and (left,right)
+*/
+body{
+    border:2px solid black;
+    margin:0;
+    padding:0;
+}
+div{
+    border:2px solid red;
+    margin:20px;
+    padding:15px;
+}
