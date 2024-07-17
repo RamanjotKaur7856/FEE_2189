@@ -1,0 +1,14 @@
+#container{
+    background-color: lightblue;
+    height:500px;
+    width:500px;
+    display:flex;
+    border: 2px solid black;
+    align-items: flex-end;
+}
+.items{
+    border: 2px solid brown;
+    height:80px;
+    width:80px;
+    align-content: flex-end;
+}
