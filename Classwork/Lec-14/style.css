@@ -1,0 +1,24 @@
+section{
+    border:2px solid black;
+    padding: 1 rem;
+}
+h1{
+    font-size: 3rem;
+}
+
+/*Media Queries*/
+@media(max-width:520px){
+    section{
+        background-color: orange;
+    }
+}
+@media(orientation:landscape){
+    section p{
+        color:blue;
+    }
+}
+@media(orientation:portrait){
+    section p{
+        color: brown;
+    }
+}
