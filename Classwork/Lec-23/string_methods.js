@@ -11,7 +11,7 @@ console.log(msg.toLowerCase());
 //4.indexof
 console.log(msg.indexOf('r'));
 
-//5.Mutable or unmutable
+//5.Immutable
 let txt="have a nice day";
 txt[3]='t';
 console.log(txt);
