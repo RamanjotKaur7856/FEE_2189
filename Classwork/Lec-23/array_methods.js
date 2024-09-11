@@ -27,9 +27,9 @@ console.log(items[0][3]);
 
 let car = ['audi', 'bmw','xuv','maruti'];
 
-// console.log(car)
+console.log(car)
 
-// 1.PUSH: adds in 1st
+// 1.PUSH: adds in end
 car.push('volvo')
 console.log(car)
 
@@ -118,8 +118,8 @@ console.log(marks === newMarks);
 const arr = [1,2,3,4,5]
 
 // Assignment is not possible
-// arr = [1,2,3,4,8]
-// console.log(arr);
+arr = [1,2,3,4,8]
+console.log(arr);
 
 console.log(arr.push('6'));
 console.log(arr);
